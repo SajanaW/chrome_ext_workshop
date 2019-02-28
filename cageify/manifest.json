@@ -1,0 +1,17 @@
+{
+  "name": "Cageify",
+  "version": "1.0",
+  "description": "Changes all images to images of Nicholas Cage",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["page.js"]
+    }
+  ],
+  "icons": {
+    "16": "cage_icon.png",
+    "48": "cage_icon.png",
+    "128": "cage_icon.png"
+  },
+  "manifest_version": 5
+}
